@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.freshd.template.TemplateApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.582 s <<< FAILURE! - in com.freshd.template.TemplateApplicationTests
+contextLoads  Time elapsed: 0.203 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: 'url' not set
+Caused by: java.lang.IllegalStateException: 'url' not set
+

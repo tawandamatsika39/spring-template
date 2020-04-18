@@ -1,0 +1,10 @@
+META-INF/spring-configuration-metadata.json
+com/freshd/template/TemplateApplication.class
+com/freshd/template/configuration/DatabaseConfiguration.class
+com/freshd/template/enums/OrderStatus.class
+com/freshd/template/dto/ItemDTO.class
+com/freshd/template/model/Item.class
+com/freshd/template/dao/ItemRepository.class
+com/freshd/template/api/ItemController.class
+com/freshd/template/dao/ItemJDBIRepository.class
+com/freshd/template/exceptions/OrderNotFoundException.class
